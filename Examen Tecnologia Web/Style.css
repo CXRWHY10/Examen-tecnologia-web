@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.presentacion{
+    gap: 199px;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.presentacion_text{
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0%;
+}
+
+.presentacion_imagenes{
+    align-items:end;
+    justify-content: center;
+    gap:40px;
+    display: flex;
+}
+.presentacion_imagenes_2{
+    margin-right: 20px;
+    display: block;
+    gap: 20px;
+}
+
+body{
+    background-color: #111827;
+    color: white;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #060c1a;
+    padding: 16px 8px 16px 8px;
+}
+.header_portafolio{
+    padding-top: 55px;
+    padding-bottom: 95px;
+    gap: 80px;
+    font-family:"Lexend Deca", sans-serif;
+    text-align: center;
+    flex-direction: column;
+}
+
+.Texto_inf{
+    margin: auto;
+    align-items: center;
+    width: 40%;
+    justify-items: center;
+}
+.Texto_sup{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.Entradas{
+    flex-direction: wrap;
+    justify-content: space-around;
+    display: flex;
+    
+}
+.header_left_me{
+    color: yellow;
+}
+.header_left{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.header_right{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(105, 103, 103);
+}
+.yellow{
+    color: yellow
+}
+.buttom{
+    font-family:"Lexend Deca", sans-serif; 
+    display: flex;
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid color black;
+    width: 65%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+}
+.Name{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 64px;
+    letter-spacing: 0%;
+}
+.imagen_2{
+    gap: 20px;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+.imagen_3{
+    gap: 20px;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
